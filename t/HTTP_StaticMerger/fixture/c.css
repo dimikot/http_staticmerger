@@ -1,0 +1,5 @@
+content_of_c {}
+
+@import url(a.css);
+@import url("/dir/m.css");
+@import url(b.css);
