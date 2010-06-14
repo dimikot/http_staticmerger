@@ -165,17 +165,6 @@ class HTTP_StaticMerger
     }
 
     /**
-     * Returns file mtime (may be overriden in tests).
-     *
-     * @param string $fila
-     * @return int
-     */
-    protected function _filemtime($file)
-    {
-    	return filemtime($file);
-    }
-    
-    /**
      * Merge content of specified URIs and return the result in form of:
      * array('content' => ..., 'maxDate' => ..., 'mime' => '')
      *
